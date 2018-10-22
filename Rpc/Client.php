@@ -9,14 +9,14 @@
  *
  */
 
-namespace Seven\RpcBundle\Rpc;
-use Seven\RpcBundle\Exception\UnknownMethodResponse;
-use Seven\RpcBundle\Rpc\Method\MethodCall;
-use Seven\RpcBundle\Rpc\Method\MethodFault;
-use Seven\RpcBundle\Rpc\Method\MethodResponse;
-use Seven\RpcBundle\Rpc\Method\MethodReturn;
-use Seven\RpcBundle\Rpc\Transport\TransportCurl;
-use Seven\RpcBundle\Rpc\Transport\TransportInterface;
+namespace Weggla\RpcBundle\Rpc;
+use Weggla\RpcBundle\Exception\UnknownMethodResponse;
+use Weggla\RpcBundle\Rpc\Method\MethodCall;
+use Weggla\RpcBundle\Rpc\Method\MethodFault;
+use Weggla\RpcBundle\Rpc\Method\MethodResponse;
+use Weggla\RpcBundle\Rpc\Method\MethodReturn;
+use Weggla\RpcBundle\Rpc\Transport\TransportCurl;
+use Weggla\RpcBundle\Rpc\Transport\TransportInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

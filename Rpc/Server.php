@@ -9,12 +9,12 @@
  *
  */
 
-namespace Seven\RpcBundle\Rpc;
-use Seven\RpcBundle\Exception\MethodNotExists;
-use Seven\RpcBundle\Rpc\Method\MethodReturn;
-use Seven\RpcBundle\Rpc\Method\MethodFault;
-use Seven\RpcBundle\Rpc\Method\MethodCall;
-use Seven\RpcBundle\Rpc\Method\MethodResponse;
+namespace Weggla\RpcBundle\Rpc;
+use Weggla\RpcBundle\Exception\MethodNotExists;
+use Weggla\RpcBundle\Rpc\Method\MethodReturn;
+use Weggla\RpcBundle\Rpc\Method\MethodFault;
+use Weggla\RpcBundle\Rpc\Method\MethodCall;
+use Weggla\RpcBundle\Rpc\Method\MethodResponse;
 use Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

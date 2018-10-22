@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\XmlRpc;
+namespace Weggla\RpcBundle\Tests\XmlRpc;
 use PHPUnit_Framework_TestCase;
-use Seven\RpcBundle\Rpc\Method\MethodCall;
-use Seven\RpcBundle\XmlRpc\Implementation;
+use Weggla\RpcBundle\Rpc\Method\MethodCall;
+use Weggla\RpcBundle\XmlRpc\Implementation;
 
 class ImplementationMethodCallTest extends PHPUnit_Framework_TestCase
 {

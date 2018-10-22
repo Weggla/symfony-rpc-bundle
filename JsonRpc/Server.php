@@ -9,8 +9,8 @@
  *
  */
 
-namespace Seven\RpcBundle\JsonRpc;
-use Seven\RpcBundle\Rpc\Server as BaseServer;
+namespace Weggla\RpcBundle\JsonRpc;
+use Weggla\RpcBundle\Rpc\Server as BaseServer;
 
 class Server extends BaseServer
 {

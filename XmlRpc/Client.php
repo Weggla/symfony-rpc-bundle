@@ -9,9 +9,9 @@
  *
  */
 
-namespace Seven\RpcBundle\XmlRpc;
-use Seven\RpcBundle\Rpc\Client as BaseClient;
-use Seven\RpcBundle\Rpc\Transport\TransportInterface;
+namespace Weggla\RpcBundle\XmlRpc;
+use Weggla\RpcBundle\Rpc\Client as BaseClient;
+use Weggla\RpcBundle\Rpc\Transport\TransportInterface;
 
 class Client extends BaseClient
 {

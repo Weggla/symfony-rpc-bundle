@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\XmlRpc;
+namespace Weggla\RpcBundle\Tests\XmlRpc;
 
 use PHPUnit_Framework_TestCase;
-use Seven\RpcBundle\XmlRpc\ValueType;
-use Seven\RpcBundle\XmlRpc\Implementation;
+use Weggla\RpcBundle\XmlRpc\ValueType;
+use Weggla\RpcBundle\XmlRpc\Implementation;
 
 class ImplementationTypeDetectTest extends PHPUnit_Framework_TestCase
 {

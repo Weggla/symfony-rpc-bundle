@@ -9,9 +9,9 @@
  *
  */
 
-namespace Seven\RpcBundle\XmlRpc\ValueType;
+namespace Weggla\RpcBundle\XmlRpc\ValueType;
 
-use Seven\RpcBundle\XmlRpc\Implementation;
+use Weggla\RpcBundle\XmlRpc\Implementation;
 use XmlRpc\ServerBundle\XmlRpc\ValueType;
 
 abstract class AbstractType implements TypeInterface

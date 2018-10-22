@@ -4,7 +4,7 @@
  * @author Łukasz Pior <pior.lukasz@gmail.com>
  */
 
-namespace Seven\RpcBundle\Rpc\Transport\Curl;
+namespace Weggla\RpcBundle\Rpc\Transport\Curl;
 
 /**
  * Simple wrapper around curl functions that allows us to mocks curl requests in tests

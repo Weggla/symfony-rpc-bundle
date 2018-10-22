@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle\Exception;
+namespace Weggla\RpcBundle\Exception;
 use Exception;
 
 class XmlRpcSchemaNotFound extends  Exception

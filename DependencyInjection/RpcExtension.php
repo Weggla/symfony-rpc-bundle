@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle\DependencyInjection;
+namespace Weggla\RpcBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle;
+namespace Weggla\RpcBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

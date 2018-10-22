@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle\XmlRpc;
+namespace Weggla\RpcBundle\XmlRpc;
 
 class ValueType
 {

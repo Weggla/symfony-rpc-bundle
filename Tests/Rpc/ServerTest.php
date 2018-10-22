@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\Rpc;
+namespace Weggla\RpcBundle\Tests\Rpc;
 
 use PHPUnit_Framework_TestCase;
-use Seven\RpcBundle\Rpc\Server;
+use Weggla\RpcBundle\Rpc\Server;
 
 class ServerTest extends PHPUnit_Framework_TestCase
 {

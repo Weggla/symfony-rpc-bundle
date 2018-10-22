@@ -4,7 +4,7 @@
  * @author Łukasz Pior <pior.lukasz@gmail.com>
  */
 
-namespace Seven\RpcBundle\Rpc\Exception;
+namespace Weggla\RpcBundle\Rpc\Exception;
 
 use Exception;
 

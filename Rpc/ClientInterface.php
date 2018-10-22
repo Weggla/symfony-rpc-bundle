@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle\Rpc;
+namespace Weggla\RpcBundle\Rpc;
 
 interface ClientInterface
 {

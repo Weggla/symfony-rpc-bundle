@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle\Rpc\Method;
+namespace Weggla\RpcBundle\Rpc\Method;
 
 class MethodReturn extends MethodResponse
 {

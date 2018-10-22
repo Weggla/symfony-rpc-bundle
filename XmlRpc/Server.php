@@ -9,8 +9,8 @@
  *
  */
 
-namespace Seven\RpcBundle\XmlRpc;
-use Seven\RpcBundle\Rpc\Server as BaseServer;
+namespace Weggla\RpcBundle\XmlRpc;
+use Weggla\RpcBundle\Rpc\Server as BaseServer;
 
 class Server extends BaseServer
 {

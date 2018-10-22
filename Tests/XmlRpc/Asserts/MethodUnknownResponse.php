@@ -8,8 +8,8 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\XmlRpc\Asserts;
-use Seven\RpcBundle\Rpc\Method\MethodResponse;
+namespace Weggla\RpcBundle\Tests\XmlRpc\Asserts;
+use Weggla\RpcBundle\Rpc\Method\MethodResponse;
 
 class MethodUnknownResponse extends MethodResponse
 {

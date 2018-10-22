@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\XmlRpc\ValueType;
+namespace Weggla\RpcBundle\Tests\XmlRpc\ValueType;
 use PHPUnit_Framework_TestCase;
-use Seven\RpcBundle\XmlRpc\ValueType\BooleanType;
+use Weggla\RpcBundle\XmlRpc\ValueType\BooleanType;
 
 class BooleanTypeTest extends PHPUnit_Framework_TestCase
 {

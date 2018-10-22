@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\XmlRpc\ValueType;
+namespace Weggla\RpcBundle\Tests\XmlRpc\ValueType;
 use PHPUnit_Framework_TestCase;
-use Seven\RpcBundle\XmlRpc\ValueType\NullType;
+use Weggla\RpcBundle\XmlRpc\ValueType\NullType;
 
 class NullTypeTest extends PHPUnit_Framework_TestCase
 {

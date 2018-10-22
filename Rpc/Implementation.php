@@ -9,10 +9,10 @@
  *
  */
 
-namespace Seven\RpcBundle\Rpc;
+namespace Weggla\RpcBundle\Rpc;
 
-use Seven\RpcBundle\Rpc\Method\MethodCall;
-use Seven\RpcBundle\Rpc\Method\MethodResponse;
+use Weggla\RpcBundle\Rpc\Method\MethodCall;
+use Weggla\RpcBundle\Rpc\Method\MethodResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

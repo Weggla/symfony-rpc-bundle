@@ -4,7 +4,7 @@
  * @author Łukasz Pior <pior.lukasz@gmail.com>
  */
 
-namespace Seven\RpcBundle\Tests\Transport;
+namespace Weggla\RpcBundle\Tests\Transport;
 
 class TransportCurlTest extends \PHPUnit_Framework_TestCase
 {

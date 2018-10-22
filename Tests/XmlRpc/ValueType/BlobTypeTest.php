@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\XmlRpc\ValueType;
+namespace Weggla\RpcBundle\Tests\XmlRpc\ValueType;
 use PHPUnit_Framework_TestCase;
-use Seven\RpcBundle\XmlRpc\ValueType\BlobType;
+use Weggla\RpcBundle\XmlRpc\ValueType\BlobType;
 
 class BlobTypeTest extends PHPUnit_Framework_TestCase
 {

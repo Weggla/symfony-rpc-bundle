@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\Rpc\Asserts;
+namespace Weggla\RpcBundle\Tests\Rpc\Asserts;
 
 class ServerHandler
 {

@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle\XmlRpc\ValueType;
+namespace Weggla\RpcBundle\XmlRpc\ValueType;
 
 class BlobType extends AbstractType
 {

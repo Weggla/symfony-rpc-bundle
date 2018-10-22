@@ -8,12 +8,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\XmlRpc;
+namespace Weggla\RpcBundle\Tests\XmlRpc;
 use PHPUnit_Framework_TestCase;
-use Seven\RpcBundle\Rpc\Method\MethodFault;
-use Seven\RpcBundle\Rpc\Method\MethodReturn;
-use Seven\RpcBundle\XmlRpc\Implementation;
-use Seven\RpcBundle\Tests\XmlRpc\Asserts\MethodUnknownResponse;
+use Weggla\RpcBundle\Rpc\Method\MethodFault;
+use Weggla\RpcBundle\Rpc\Method\MethodReturn;
+use Weggla\RpcBundle\XmlRpc\Implementation;
+use Weggla\RpcBundle\Tests\XmlRpc\Asserts\MethodUnknownResponse;
 
 class ImplementationMethodResponseTest extends PHPUnit_Framework_TestCase
 {

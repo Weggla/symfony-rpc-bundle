@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle\Rpc;
+namespace Weggla\RpcBundle\Rpc;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

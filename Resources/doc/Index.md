@@ -26,7 +26,7 @@ which show how you can handle XML-RPC calls.
 namespace Sample\WebserviceBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Seven\RpcBundle\XmlRpc\Server;
+use Weggla\RpcBundle\XmlRpc\Server;
 
 class CalcHandler {
 

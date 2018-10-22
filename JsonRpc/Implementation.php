@@ -9,17 +9,17 @@
  *
  */
 
-namespace Seven\RpcBundle\JsonRpc;
+namespace Weggla\RpcBundle\JsonRpc;
 
-use Seven\RpcBundle\Exception\Fault;
-use Seven\RpcBundle\Exception\InvalidJsonRpcContent;
-use Seven\RpcBundle\Exception\InvalidJsonRpcVersion;
-use Seven\RpcBundle\Exception\UnknownMethodResponse;
-use Seven\RpcBundle\Rpc\Implementation as BaseImplementation;
-use Seven\RpcBundle\Rpc\Method\MethodCall;
-use Seven\RpcBundle\Rpc\Method\MethodResponse;
-use Seven\RpcBundle\Rpc\Method\MethodFault;
-use Seven\RpcBundle\Rpc\Method\MethodReturn;
+use Weggla\RpcBundle\Exception\Fault;
+use Weggla\RpcBundle\Exception\InvalidJsonRpcContent;
+use Weggla\RpcBundle\Exception\InvalidJsonRpcVersion;
+use Weggla\RpcBundle\Exception\UnknownMethodResponse;
+use Weggla\RpcBundle\Rpc\Implementation as BaseImplementation;
+use Weggla\RpcBundle\Rpc\Method\MethodCall;
+use Weggla\RpcBundle\Rpc\Method\MethodResponse;
+use Weggla\RpcBundle\Rpc\Method\MethodFault;
+use Weggla\RpcBundle\Rpc\Method\MethodReturn;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

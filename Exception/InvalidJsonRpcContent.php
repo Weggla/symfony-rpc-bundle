@@ -9,7 +9,7 @@
  *
  */
 
-namespace Seven\RpcBundle\Exception;
+namespace Weggla\RpcBundle\Exception;
 
 class InvalidJsonRpcContent extends  InvalidRpcContent
 {

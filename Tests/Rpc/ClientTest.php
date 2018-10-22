@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\Rpc;
+namespace Weggla\RpcBundle\Tests\Rpc;
 
-use Seven\RpcBundle\Rpc\Client;
-use Seven\RpcBundle\Rpc\Method\MethodCall;
+use Weggla\RpcBundle\Rpc\Client;
+use Weggla\RpcBundle\Rpc\Method\MethodCall;
 use Symfony\Component\HttpFoundation\Request;
 
 class ClientTest extends \PHPUnit_Framework_TestCase

@@ -9,19 +9,19 @@
  *
  */
 
-namespace Seven\RpcBundle\XmlRpc;
+namespace Weggla\RpcBundle\XmlRpc;
 
-use Seven\RpcBundle\Exception\Fault;
-use Seven\RpcBundle\Exception\InvalidXmlRpcContent;
-use Seven\RpcBundle\Exception\UnknownMethodResponse;
-use Seven\RpcBundle\Exception\XmlRpcSchemaNotFound;
+use Weggla\RpcBundle\Exception\Fault;
+use Weggla\RpcBundle\Exception\InvalidXmlRpcContent;
+use Weggla\RpcBundle\Exception\UnknownMethodResponse;
+use Weggla\RpcBundle\Exception\XmlRpcSchemaNotFound;
 use Symfony\Component\Config\FileLocator;
-use Seven\RpcBundle\Rpc\Implementation as BaseImplementation;
-use Seven\RpcBundle\Rpc\Method\MethodCall;
-use Seven\RpcBundle\Rpc\Method\MethodResponse;
-use Seven\RpcBundle\Rpc\Method\MethodFault;
-use Seven\RpcBundle\Rpc\Method\MethodReturn;
-use Seven\RpcBundle\XmlRpc\ValueType\AbstractType;
+use Weggla\RpcBundle\Rpc\Implementation as BaseImplementation;
+use Weggla\RpcBundle\Rpc\Method\MethodCall;
+use Weggla\RpcBundle\Rpc\Method\MethodResponse;
+use Weggla\RpcBundle\Rpc\Method\MethodFault;
+use Weggla\RpcBundle\Rpc\Method\MethodReturn;
+use Weggla\RpcBundle\XmlRpc\ValueType\AbstractType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -217,7 +217,7 @@ class Implementation extends BaseImplementation
      * @return string
      */
 
-    public function extract(\DOMElement $element)
+    public function extract($element)
     {
         if ($element->tagName == 'value') {
             $element = $this->unwrap($element);

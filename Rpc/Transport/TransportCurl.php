@@ -9,10 +9,10 @@
  *
  */
 
-namespace Seven\RpcBundle\Rpc\Transport;
+namespace Weggla\RpcBundle\Rpc\Transport;
 
-use Seven\RpcBundle\Rpc\Exception\CurlTransportException;
-use Seven\RpcBundle\Rpc\Transport\Curl\CurlRequest;
+use Weggla\RpcBundle\Rpc\Exception\CurlTransportException;
+use Weggla\RpcBundle\Rpc\Transport\Curl\CurlRequest;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

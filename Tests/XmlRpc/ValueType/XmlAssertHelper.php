@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Seven\RpcBundle\Tests\XmlRpc\ValueType;
+namespace Weggla\RpcBundle\Tests\XmlRpc\ValueType;
 
 class XmlAssertHelper
 {

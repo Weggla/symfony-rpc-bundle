@@ -66,7 +66,7 @@
     </xsd:complexType>
 
     <xsd:complexType name="ValueType" mixed="true">
-        <xsd:choice>
+        <xsd:choice minOccurs="0">
             <xsd:element name="i4"            type="xsd:int" />
             <xsd:element name="int"           type="xsd:int" />
             <xsd:element name="string"        type="ASCIIString" />
