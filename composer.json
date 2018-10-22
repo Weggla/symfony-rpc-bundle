@@ -1,5 +1,5 @@
 {
-    "name": "seven/symfony-rpc-bundle",
+    "name": "weggla/symfony-rpc-bundle",
     "description": "This Symfony bundle provide easy way to create XMLRPC server",
     "keywords": ["Symfony", "XMLRPC", "Server", "XML-RPC", "RPC", "Bundle"],
     "type": "symfony-bundle",
@@ -21,7 +21,7 @@
         "phpunit/phpunit": "*"
     },
     "autoload": {
-        "psr-0": { "Seven\\RpcBundle": "" }
+        "psr-0": { "Weggla\\RpcBundle": "" }
     },
-    "target-dir": "Seven/RpcBundle"
+    "target-dir": "Weggla/RpcBundle"
 }
