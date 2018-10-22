@@ -6,6 +6,10 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Holger Kimmel",
+            "email": "holger.kimmel@gmx.net"
+        },
+        {
             "name": "Sergey Kolodyazhnyy",
             "email": "sergey.kolodyazhnyy@gmail.com"
         }
