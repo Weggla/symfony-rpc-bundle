@@ -23,5 +23,5 @@
     "autoload": {
         "psr-0": { "Seven\\RpcBundle": "" }
     },
-    "target-dir": "Weggla/RpcBundle"
+    "target-dir": "Seven/RpcBundle"
 }
